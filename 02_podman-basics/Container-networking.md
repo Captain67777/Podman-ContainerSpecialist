@@ -1,6 +1,8 @@
 ## Container Networking Basics
 
-Podman comes with a network called podman. By default, containers are attached to this network and can use it to communicate with one another.
+Podman comes with a network called podman.   
+By default, **rootful** containers are attached to this network and can use it to communicate with one another.   
+**rootless** containers cannot attach to this default network and always need a user-defined network to communicate with one another.
 
 ###  Podman Networking Basics
 
